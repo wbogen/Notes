@@ -1,0 +1,56 @@
+- [ ] Don't block GUI interactions outside of SignalDisplayWidget while data is loading
+- [x] Show loading state
+- [ ] Formatting plots
+    - [x] Shorten sid label for high number of plots per column
+    - [x] Make sure height of all plots is identical in the same column
+    - [ ] Reduce plot updates as channels are initially rendered
+    - [ ] Ignore stimulations for y scaling
+    - [x] Lock y-scale for panning
+- [ ] Docks
+    - [x] Expand visible region
+    - [ ] Collapse dock
+    - [ ] default width
+- [ ] Filters Tree
+    - [ ] Scale font size
+    - [ ] Remove individual filters
+    - [x] Add default aggregate filters
+    - [x] suppress_pulses()
+        - [x] move spin box by ms
+    - [x] Text filters don't display other options
+- [ ] Data Loading Tree
+    - [x] Don't modify data that is already loaded when displaying new Signals
+    - [x] Don't delete temp files immediately so other channels can be loaded without having to redownload nonlocal files
+    - [x] Make sure that preexisting temp files are actually the same file when loading and not just a file with the same name
+    - [ ] If a temp file with the same name but not the same contents is overwritten, the file is deleted afterwards
+- [x] Manual Event selection
+    - [x] Select multiple events from the same region
+        - [x] Split on stimulations
+    - [x] Select across multiple channels at the same time
+    - [x] Prevent multiple events on the same peak
+    - [x] Set a minimum distance between events
+    - [x] Do a better job preventing stimulations from being selected (artifact suppression filter implemented for this)
+- [ ] Cardiac analysis
+    - [x] Manually set mISI (decided not to do this)
+    - [x] Determine conduction paths
+    - [ ] Finalize output
+- [x] Set channel map
+    - [x] button somewhere in interface
+    - [x] Checkmark in statusbar at the bottom to show that one is set (show filename instead)
+- [ ] Progress bar for make_signals() across many files
+- [ ] Loading a lot of files takes a long time
+- [ ] Hover over  names in Channels dock to get event summary
+
+## Improvements
+- [ ] Thicken contraction selection region, crosstalk distinctions aren't clearly visible nor are the selections in general
+
+## Various Bugs
+- [ ] Loading stimulations separately is not done correctly
+- [ ] Filter status message not showing up
+- [ ] Data does not reload when channel map is selected
+- [x] Channels sorted by electrode number and not row/order
+- [x] References to EventRegions don't get properly updated when loading new data
+- [ ] Crosstalk doesn't render after loading new channels until a new event is added
+- [x] Tooltip gets stuck being displayed if event is deleted 
+- [ ] When an event that is marked as crosstalk is deleted, all of the events marked as crosstalk on that channel are deleted. THis does not affect events that are the largest amplitude, seems to also include low amplitude events that are not crosstalk
+- [ ] Display order is A1,...,A5,B1,...,B5 instead of A1,...,A5,B5,...,B1
+

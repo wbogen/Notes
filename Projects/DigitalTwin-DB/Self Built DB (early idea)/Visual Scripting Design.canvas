@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"624642ed205d99cc","type":"text","text":"# Experiment 1\n### Chip type\n\\> Chip 1\n****\n### Timepoints\n\\> D0\n\\> D1\n\\> D4\n\\> D7\n\n\\+ Add timepoint","x":15,"y":-360,"width":405,"height":460},
+		{"id":"095897023765eddc","x":-1100,"y":-551,"width":327,"height":153,"type":"text","text":"# Cell\n- Cell line\n- induced conditions"},
+		{"id":"c102acd50e2a4ae1","type":"text","text":"# Cell\n- Cell line\n- induced conditions","x":-1100,"y":-360,"width":327,"height":153},
+		{"id":"99411a6c1ffc4b43","type":"text","text":"# Cell\n- Cell line\n- induced conditions","x":-1100,"y":-180,"width":327,"height":153},
+		{"id":"1e2cb13a61139472","type":"text","text":"# Cell\n- Cell line\n- induced conditions","x":-1100,"y":-740,"width":327,"height":153},
+		{"id":"06c3708fcd875ed0","type":"text","text":"# 4-Organ Chip\n\n\\> Cardiac MEA\n\\> Cardiac CL\n\\> Neuron MEA\n\\> SKM CL","x":-580,"y":-499,"width":445,"height":203},
+		{"id":"f32753dffdafbb47","type":"text","text":"# Dose\n- Compound\n- Quantity","x":-500,"y":-27,"width":241,"height":147},
+		{"id":"c9e0a06508ca4cf4","type":"text","text":"# Dose\n- Compound\n- Quantity","x":-500,"y":-203,"width":241,"height":147},
+		{"id":"bdeed171d1168735","type":"text","text":"# Dose\n- Compound\n- Quantity","x":-500,"y":140,"width":241,"height":147},
+		{"id":"3234df5a31dce308","type":"text","text":"# Dose\n- Compound\n- Quantity","x":-500,"y":320,"width":241,"height":147}
+	],
+	"edges":[
+		{"id":"b5047cb689780d22","fromNode":"06c3708fcd875ed0","fromSide":"right","toNode":"624642ed205d99cc","toSide":"left"},
+		{"id":"8b3119d26c34da2f","fromNode":"095897023765eddc","fromSide":"right","toNode":"06c3708fcd875ed0","toSide":"left"},
+		{"id":"a0293415c20d5cef","fromNode":"c102acd50e2a4ae1","fromSide":"right","toNode":"06c3708fcd875ed0","toSide":"left"},
+		{"id":"e1508e550a63d482","fromNode":"1e2cb13a61139472","fromSide":"right","toNode":"06c3708fcd875ed0","toSide":"left"},
+		{"id":"40a61070994f5769","fromNode":"99411a6c1ffc4b43","fromSide":"right","toNode":"06c3708fcd875ed0","toSide":"left"},
+		{"id":"f531d8e37a716d81","fromNode":"f32753dffdafbb47","fromSide":"right","toNode":"624642ed205d99cc","toSide":"left"},
+		{"id":"1d286af31e004d51","fromNode":"3234df5a31dce308","fromSide":"right","toNode":"624642ed205d99cc","toSide":"left"},
+		{"id":"7cee13a829be973f","fromNode":"bdeed171d1168735","fromSide":"right","toNode":"624642ed205d99cc","toSide":"left"},
+		{"id":"7227112ba8cff90b","fromNode":"c9e0a06508ca4cf4","fromSide":"right","toNode":"624642ed205d99cc","toSide":"left"}
+	]
+}

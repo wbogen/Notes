@@ -1,0 +1,122 @@
+{
+  "main": {
+    "id": "0451108b6998c57e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddf1edb1fa6dca43",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Flow Cytometry.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a09edaf4c63565ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b8d7c8286150236",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ee046372139cfe4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3d4870a478e89dd1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f03825f1a238ff46",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301,
+    "collapsed": true
+  },
+  "right": {
+    "id": "072f178d6e994471",
+    "type": "split",
+    "children": [
+      {
+        "id": "62717f140611d061",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c2cdc997b65cc41",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Flow Cytometry.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "44ec7d4ab7848cb6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Flow Cytometry.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ddf1edb1fa6dca43",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Resampling.md",
+    "sample rate.md",
+    "Santhanam 2018.md",
+    "share drive.md",
+    "timing errors.md",
+    "CIDP Outputs.md",
+    "Software Projects/Analysis/NMJ-Imaging Analysis Software.md",
+    "Software Projects/Recording/NMJ LabView software.md",
+    "File Types.md"
+  ]
+}

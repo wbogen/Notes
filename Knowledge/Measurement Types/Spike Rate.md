@@ -1,0 +1,1 @@
+Calculated in the same way as [[Beat Frequency]] but is distinct in that it is not intended to show consistent events. This terminology is used to refer to [[Neuronal MEA]] data

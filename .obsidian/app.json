@@ -1,0 +1,13 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "trashOption": "local",
+  "showLineNumber": true,
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "useTab": false,
+  "promptDelete": false,
+  "vimMode": true
+}

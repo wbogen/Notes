@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"74bd9ba986b70ff6","type":"text","text":"# Systems\n\n| name                 | type       |\n| -------------------- | ---------- |\n| experiment           | REFERENCES |\n| system_configuration | REFERENCES |\n| actions              | JSON       |\n","x":100,"y":-211,"width":340,"height":243},
+		{"id":"2d5118ea81c90a80","type":"text","text":"# Compounds\n*Imported info about compounds*","x":107,"y":140,"width":327,"height":160},
+		{"id":"cc78d8934ead9302","type":"text","text":"# Cells\n\n| name            | type |\n| --------------- | ---- |\n| type            | TEXT |\n| line            | TEXT |\n| additional_info | JSON |\n","x":555,"y":-573,"width":250,"height":249},
+		{"id":"202d0cdf8b1a5bd8","type":"text","text":"# Housing Design\n\n| name       | type |\n| ---------- | ---- |\n| version    | TEXT |\n| name       | TEXT |\n| slot_count | INT  |\n| slots      | JSON |\n","x":555,"y":-920,"width":285,"height":316},
+		{"id":"3fdbedcb988f1437","type":"text","text":"# System Configuration\n\n| name           | type      |\n| -------------- | --------- |\n| housing_design | REFERENCE |\n| config         | JSON      |\n","x":89,"y":-560,"width":363,"height":222},
+		{"id":"8cb1fa7ebbc5b51f","type":"text","text":"# Assays\n\n| name              | type       |\n| ----------------- | ---------- |\n| system            | REFERENCES |\n| timepoint         | TEXT       |\n| slot              | INT        |\n| functional_assays | JSON       |\n| bio_assays        | JSON       |\n","x":520,"y":-239,"width":407,"height":300},
+		{"id":"9e7ffa07d91c7c45","type":"text","text":"# Experiment Quality\n*Quality value assigned to an experiment*\n\n| name        | type |\n| ----------- | ---- |\n| quality     | INT  |\n| description | TEXT |\n","x":-720,"y":-231,"width":320,"height":277},
+		{"id":"e1a6f245db427a87","type":"text","text":"# Experiments\n\n| name       | type       |\n| ---------- | ---------- |\n| project    | TEXT       |\n| milestone  | TEXT       |\n| experiment | TEXT       |\n| batch      | INT        |\n| quality    | REFERENCES |\n","x":-342,"y":-245,"width":282,"height":306},
+		{"id":"24a2d117caa329e1","type":"text","text":"# Experimental Results\nPrecomputed aggregations for standard experiments\n- Saves compute time for common requests","x":-400,"y":-551,"width":398,"height":236},
+		{"id":"30dacaa678fc0e7a","type":"text","text":"# Experimental Design\n- What was done\n- What materials were used","x":-393,"y":140,"width":384,"height":160}
+	],
+	"edges":[
+		{"id":"7571802f15e4d359","fromNode":"e1a6f245db427a87","fromSide":"top","toNode":"24a2d117caa329e1","toSide":"bottom"},
+		{"id":"bace6ce69af2d27d","fromNode":"74bd9ba986b70ff6","fromSide":"top","toNode":"3fdbedcb988f1437","toSide":"bottom"},
+		{"id":"5cd127b0d6c95d6d","fromNode":"3fdbedcb988f1437","fromSide":"right","toNode":"cc78d8934ead9302","toSide":"left"},
+		{"id":"84c4620da792dbe9","fromNode":"74bd9ba986b70ff6","fromSide":"left","toNode":"e1a6f245db427a87","toSide":"right"},
+		{"id":"42dbc9e569d0837b","fromNode":"8cb1fa7ebbc5b51f","fromSide":"left","toNode":"74bd9ba986b70ff6","toSide":"right"},
+		{"id":"0ffca98bcd8e8927","fromNode":"e1a6f245db427a87","fromSide":"bottom","toNode":"30dacaa678fc0e7a","toSide":"top"},
+		{"id":"22354e36700a9167","fromNode":"3fdbedcb988f1437","fromSide":"top","toNode":"202d0cdf8b1a5bd8","toSide":"left"},
+		{"id":"8fe90679c78771bf","fromNode":"74bd9ba986b70ff6","fromSide":"bottom","toNode":"2d5118ea81c90a80","toSide":"top"},
+		{"id":"79ddad2b06200773","fromNode":"e1a6f245db427a87","fromSide":"left","toNode":"9e7ffa07d91c7c45","toSide":"right"}
+	]
+}

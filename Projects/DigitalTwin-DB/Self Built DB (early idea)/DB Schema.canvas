@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"202d0cdf8b1a5bd8","type":"text","text":"# Housing Design\n\n| name       | type |\n| ---------- | ---- |\n| version    | TEXT |\n| name       | TEXT |\n| slot_count | INT  |\n| slots      | JSON |\n","x":633,"y":-1008,"width":313,"height":316},
+		{"id":"74bd9ba986b70ff6","type":"text","text":"# Systems\n\n| name                 | type       |\n| -------------------- | ---------- |\n| experiment           | REFERENCES |\n| system_configuration | REFERENCES |\n| actions              | JSON       |\n","x":100,"y":-211,"width":340,"height":243},
+		{"id":"2d5118ea81c90a80","type":"text","text":"# Compounds\n*Imported info about compounds*","x":107,"y":140,"width":327,"height":160},
+		{"id":"3fdbedcb988f1437","type":"text","text":"# System Configuration\n\n| name           | type      |\n| -------------- | --------- |\n| housing_design | REFERENCE |\n| config         | JSON      |\n\n\n\n![[Pasted image 20241104143057.png]]","x":71,"y":-702,"width":400,"height":364},
+		{"id":"cc78d8934ead9302","type":"text","text":"# Cells\n\n| name            | type |\n| --------------- | ---- |\n| type            | TEXT |\n| line            | TEXT |\n| additional_info | JSON |\n","x":633,"y":-647,"width":250,"height":249},
+		{"id":"8cb1fa7ebbc5b51f","type":"text","text":"# Assays\n\n| name              | type       |\n| ----------------- | ---------- |\n| system            | REFERENCES |\n| timepoint         | TEXT       |\n| slot              | INT        |\n| functional_assays | JSON       |\n| bio_assays        | JSON       |\n\n\n``` JSON\n'assays': {\n        'D0': {\n            'slot 1': {},\n            'slot 2': { # measurement names and keys managed by externel logic\n                'FPD': {\n                    'value': .5,\n                    'unit': 's'\n                },\n                'beat_freq': {\n                    'value': 2,\n                    'unit': 's'\n                },\n                'previous_dose_remaining': [\n                    {\n                        'name': 'Casopitante',\n                        'amount': 2,\n                        'unit': 'uL',\n                    }\n                ],\n            },\n        },\n        'D5': {'slot 1': {}, 'slot 2': {}},\n        'end': {'slot 1': {}, 'slot 2': {}},\n    }\n```","x":555,"y":-276,"width":407,"height":357},
+		{"id":"e1a6f245db427a87","type":"text","text":"# Experiments\n\n| name       | type       |     |\n| ---------- | ---------- | --- |\n| project    | TEXT       |     |\n| milestone  | TEXT       |     |\n| experiment | TEXT       |     |\n| batch      | INT        |     |\n| quality    | REFERENCES |     |\n","x":-362,"y":-211,"width":302,"height":306},
+		{"id":"24a2d117caa329e1","type":"text","text":"# Experimental Results\nPrecomputed aggregations for standard experiments\n- Saves compute time for common requests","x":-410,"y":-516,"width":398,"height":236},
+		{"id":"30dacaa678fc0e7a","type":"text","text":"# Experimental Design\n- What was done\n- What materials were used","x":-403,"y":140,"width":384,"height":160},
+		{"id":"c25f14b47706c043","type":"text","text":"Assume unique identifier for each table and a name where appropriate","x":71,"y":-990,"width":335,"height":140},
+		{"id":"e2bc5401023d0a82","type":"text","text":"# Question\n- do the same housing design always have the same cells and do the same kind of assays\n    - e.g. slot 3 in 4-organ housing always has SKM CL?\n- Make standardized shorthand for representing timepoints\n    - e.g. D3 = \"3 days from experiment start\", 2H = \"2 hours after experiment start\"","x":-410,"y":-920,"width":398,"height":360},
+		{"id":"9e7ffa07d91c7c45","type":"text","text":"# Experiment Quality\n*Quality value assigned to an experiment*\n\n| name        | type |\n| ----------- | ---- |\n| quality     | INT  |\n| description | TEXT |\n","x":-730,"y":-196,"width":320,"height":277}
+	],
+	"edges":[
+		{"id":"7571802f15e4d359","fromNode":"e1a6f245db427a87","fromSide":"top","toNode":"24a2d117caa329e1","toSide":"bottom"},
+		{"id":"bace6ce69af2d27d","fromNode":"74bd9ba986b70ff6","fromSide":"top","toNode":"3fdbedcb988f1437","toSide":"bottom"},
+		{"id":"5cd127b0d6c95d6d","fromNode":"3fdbedcb988f1437","fromSide":"right","toNode":"cc78d8934ead9302","toSide":"left"},
+		{"id":"84c4620da792dbe9","fromNode":"74bd9ba986b70ff6","fromSide":"left","toNode":"e1a6f245db427a87","toSide":"right"},
+		{"id":"42dbc9e569d0837b","fromNode":"8cb1fa7ebbc5b51f","fromSide":"left","toNode":"74bd9ba986b70ff6","toSide":"right"},
+		{"id":"0ffca98bcd8e8927","fromNode":"e1a6f245db427a87","fromSide":"bottom","toNode":"30dacaa678fc0e7a","toSide":"top"},
+		{"id":"22354e36700a9167","fromNode":"3fdbedcb988f1437","fromSide":"top","toNode":"202d0cdf8b1a5bd8","toSide":"left"},
+		{"id":"8fe90679c78771bf","fromNode":"74bd9ba986b70ff6","fromSide":"bottom","toNode":"2d5118ea81c90a80","toSide":"top"},
+		{"id":"79ddad2b06200773","fromNode":"e1a6f245db427a87","fromSide":"left","toNode":"9e7ffa07d91c7c45","toSide":"right"}
+	]
+}

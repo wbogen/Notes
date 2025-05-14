@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "0451108b6998c57e",
+    "type": "split",
+    "children": [
+      {
+        "id": "003843a9cded10fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15b68abaf95311d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/DigitalTwin-DB/Batch Records Workflow (May 2025)/LCMS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LCMS"
+            }
+          },
+          {
+            "id": "d670df7622e930b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/DigitalTwin-DB/Batch Records Workflow (May 2025)/NMJ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NMJ"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a09edaf4c63565ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b8d7c8286150236",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ee046372139cfe4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3d4870a478e89dd1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "443986a9199414cd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 248.5
+  },
+  "right": {
+    "id": "072f178d6e994471",
+    "type": "split",
+    "children": [
+      {
+        "id": "62717f140611d061",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c2cdc997b65cc41",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Projects/DigitalTwin-DB/DB Schema.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for DB Schema"
+            }
+          },
+          {
+            "id": "44ec7d4ab7848cb6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projects/DigitalTwin-DB/DB Schema.canvas"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DB Schema"
+            }
+          },
+          {
+            "id": "a6c3460d0dc8971f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 547.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "d670df7622e930b1",
+  "lastOpenFiles": [
+    "Projects/DigitalTwin-DB/Batch Records Workflow (May 2025)/LCMS.md",
+    "Projects/DigitalTwin-DB/Batch Records Workflow (May 2025)/NMJ.md",
+    "General/Tags.md",
+    "Projects/DigitalTwin-DB/Self Built DB (early idea)/DB Schema.canvas",
+    "Projects/DigitalTwin-DB/Batch Records Workflow (May 2025)",
+    "Projects/DigitalTwin-DB/Self Built DB (early idea)",
+    "Projects/nMEA-CV/Stim Testing (25-04-03).md",
+    "Projects/DigitalTwin-DB/Self Built DB (early idea)/Pasted image 20241104142637.png",
+    "Projects/nMEA-CV",
+    "Projects/DigitalTwin-DB/Self Built DB (early idea)/Pasted image 20241104143057.png",
+    "Projects/DigitalTwin-DB/Self Built DB (early idea)/Pasted image 20241104162839.png",
+    "Projects/DigitalTwin-DB/Self Built DB (early idea)/DB Schema 1.canvas",
+    "Projects/Flow Cytometry/Flow Cytometry.md",
+    "Projects/DigitalTwin-DB/Self Built DB (early idea)/Overall Flow.canvas",
+    "Projects/DigitalTwin-DB/Self Built DB (early idea)/Visual Scripting Design.canvas",
+    "Meeting Notes/Cloud Services Meeting 050922.md",
+    "Meeting Notes/CIDP Meeting 101223.md",
+    "Projects/Spectral-nMEA/Spectral Detection 071724.md",
+    "Projects/DigitalTwin-DB",
+    "Projects/Spectral-nMEA",
+    "Projects/nMEA",
+    "Projects/NMJ-Net/Production Integration Plan.md",
+    "Projects/NMJ-Net/Data Labeling Tool.md",
+    "Projects/NMJ-Net/Project Outline.md",
+    "Knowledge/Hardware/MEA.md",
+    "Projects/NMJ-Net",
+    "LuminArray/LuminArray-Signals.md",
+    "LuminArray/LuminArray.md",
+    "Projects",
+    "Knowledge/Algorithms/Peak Detection Methods.md",
+    "Knowledge",
+    "General/File Types.md",
+    "Untitled 1.md",
+    "General/Design Ideas.md",
+    "Bad test.md",
+    "Meeting Notes",
+    "Projects/Software Projects/SignalView-GUI/Spike Scope.md",
+    "Projects/Software Projects/SignalView-GUI/SignalView-GUI.md",
+    "Projects/Software Projects/SignalView-GUI/Peripheral Features.md",
+    "Projects/Software Projects/SignalView-GUI/SignalView TODO.md",
+    "Projects/Software Projects/SignalView-GUI/Core Features.md",
+    "Core Features.md",
+    "Projects/Software Projects/Analysis/NMJ/NMJ-Imaging Analysis Software.md"
+  ]
+}

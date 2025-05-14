@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"e2d4907073bac20a","x":-449,"y":-80,"width":250,"height":60,"type":"text","text":"test"},
+		{"id":"3b2a65d62e83ae09","x":-180,"y":-20,"width":250,"height":50,"type":"text","text":"3"},
+		{"id":"2cfa648aa6ef60bd","x":-940,"y":-395,"width":400,"height":400,"type":"file","file":"Software Projects/Analysis/CIDP Analysis.md"}
+	],
+	"edges":[
+		{"id":"f37ec7fd7070c9af","fromNode":"e2d4907073bac20a","fromSide":"right","toNode":"3b2a65d62e83ae09","toSide":"left"}
+	]
+}
