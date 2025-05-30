@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "003843a9cded10fe",
+        "id": "938ad962e0243ec9",
         "type": "tabs",
         "children": [
           {
-            "id": "15b68abaf95311d2",
+            "id": "aa8d67266855da83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/DigitalTwin-DB/Batch Records Workflow (May 2025)/LCMS.md",
+                "file": "Projects/DigitalTwin-DB/Team Workflows (May 2025)/LCMS.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "d670df7622e930b1",
+            "id": "49452a45d32bc8ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/DigitalTwin-DB/Batch Records Workflow (May 2025)/NMJ.md",
+                "file": "Projects/DigitalTwin-DB/Design Doc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NMJ"
+              "title": "Design Doc"
             }
           }
         ],
@@ -93,23 +93,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 251.5
   },
   "right": {
     "id": "072f178d6e994471",
     "type": "split",
     "children": [
       {
-        "id": "62717f140611d061",
+        "id": "026de442ebbbff08",
         "type": "tabs",
         "children": [
           {
-            "id": "1c2cdc997b65cc41",
+            "id": "a2ed71ba07754f91",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/DigitalTwin-DB/DB Schema.canvas",
+                "file": "Projects/DigitalTwin-DB/Design Doc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,23 +119,26 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DB Schema"
+              "title": "Backlinks for Design Doc"
             }
           },
           {
-            "id": "44ec7d4ab7848cb6",
+            "id": "6a1253d497913b3b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/DigitalTwin-DB/DB Schema.canvas"
+                "file": "Projects/DigitalTwin-DB/Design Doc.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DB Schema"
+              "title": "Outline of Design Doc"
             }
           },
           {
-            "id": "a6c3460d0dc8971f",
+            "id": "308e9b9cdf3edf20",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -149,7 +152,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 547.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,22 +164,44 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "univer:Univer": false
     }
   },
-  "active": "d670df7622e930b1",
+  "active": "1ee046372139cfe4",
   "lastOpenFiles": [
-    "Projects/DigitalTwin-DB/Batch Records Workflow (May 2025)/LCMS.md",
-    "Projects/DigitalTwin-DB/Batch Records Workflow (May 2025)/NMJ.md",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/LCMS.md",
+    "Projects/DigitalTwin-DB/Design Doc.md",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/XPS.md",
+    "Projects/DigitalTwin-DB/Open Questions.md",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/~$Resource Tracker.xlsx",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/Batch Records.md",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/Lung.md",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/NMJ/Batch Records.md",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/20250514_142045.jpg",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/20250514_141945.jpg",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/20250514_141951.jpg",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/20250514_141953.jpg",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/20250514_141958.jpg",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/20250514_142019.jpg",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/20250514_142027.jpg",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/20250514_142035.jpg",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/20250514_142040.jpg",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/20250514_142042.jpg",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/Resource Tracker 1.xlsx",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV/current method docs/Resource Tracker.xlsx",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/nMEA-CV",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/NMJ/~$1011 Botox Milestone 1.3 Experiment 17 NMJ Count and Stability.xlsx",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/NMJ/Current method docs",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/README.md",
+    "README.md",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/NMJ/Current method docs/1011 Milestone 1.3 Compiled Fidelity Data.xlsx",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/NMJ/1011 Botox Milestone 1.3 Experiment 17 NMJ Count and Stability (1).xlsx",
+    "Projects/DigitalTwin-DB/Team Workflows (May 2025)/NMJ/Current method docs/1011 Milestone 1.3 Compiled Stability Data.xlsx",
     "General/Tags.md",
     "Projects/DigitalTwin-DB/Self Built DB (early idea)/DB Schema.canvas",
-    "Projects/DigitalTwin-DB/Batch Records Workflow (May 2025)",
-    "Projects/DigitalTwin-DB/Self Built DB (early idea)",
     "Projects/nMEA-CV/Stim Testing (25-04-03).md",
-    "Projects/DigitalTwin-DB/Self Built DB (early idea)/Pasted image 20241104142637.png",
-    "Projects/nMEA-CV",
-    "Projects/DigitalTwin-DB/Self Built DB (early idea)/Pasted image 20241104143057.png",
-    "Projects/DigitalTwin-DB/Self Built DB (early idea)/Pasted image 20241104162839.png",
     "Projects/DigitalTwin-DB/Self Built DB (early idea)/DB Schema 1.canvas",
     "Projects/Flow Cytometry/Flow Cytometry.md",
     "Projects/DigitalTwin-DB/Self Built DB (early idea)/Overall Flow.canvas",
@@ -183,30 +209,16 @@
     "Meeting Notes/Cloud Services Meeting 050922.md",
     "Meeting Notes/CIDP Meeting 101223.md",
     "Projects/Spectral-nMEA/Spectral Detection 071724.md",
-    "Projects/DigitalTwin-DB",
-    "Projects/Spectral-nMEA",
-    "Projects/nMEA",
     "Projects/NMJ-Net/Production Integration Plan.md",
     "Projects/NMJ-Net/Data Labeling Tool.md",
     "Projects/NMJ-Net/Project Outline.md",
     "Knowledge/Hardware/MEA.md",
-    "Projects/NMJ-Net",
     "LuminArray/LuminArray-Signals.md",
     "LuminArray/LuminArray.md",
-    "Projects",
     "Knowledge/Algorithms/Peak Detection Methods.md",
-    "Knowledge",
     "General/File Types.md",
     "Untitled 1.md",
     "General/Design Ideas.md",
-    "Bad test.md",
-    "Meeting Notes",
-    "Projects/Software Projects/SignalView-GUI/Spike Scope.md",
-    "Projects/Software Projects/SignalView-GUI/SignalView-GUI.md",
-    "Projects/Software Projects/SignalView-GUI/Peripheral Features.md",
-    "Projects/Software Projects/SignalView-GUI/SignalView TODO.md",
-    "Projects/Software Projects/SignalView-GUI/Core Features.md",
-    "Core Features.md",
-    "Projects/Software Projects/Analysis/NMJ/NMJ-Imaging Analysis Software.md"
+    "Bad test.md"
   ]
 }

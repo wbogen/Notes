@@ -9,5 +9,6 @@
   "foldIndent": true,
   "useTab": false,
   "promptDelete": false,
-  "vimMode": true
+  "vimMode": true,
+  "showUnsupportedFiles": true
 }
